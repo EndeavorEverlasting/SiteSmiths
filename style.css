@@ -1,0 +1,75 @@
+  body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #121212;
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #1e1e1e;
+    padding: 1rem;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  nav ul li a {
+    color: #00ff00;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+
+  nav ul li a:hover {
+    background-color: #00ff00;
+    color: #121212;
+  }
+
+  main {
+    padding: 2rem;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1e1e1e;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form label, form input, form textarea, form button {
+    margin-bottom: 1rem;
+  }
+
+  form input, form textarea {
+    padding: 0.5rem;
+    background-color: #1e1e1e;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+  }
+
+  form button {
+    padding: 0.5rem;
+    background-color: #00ff00;
+    color: #121212;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  form button:hover {
+    background-color: #009900;
+  }
