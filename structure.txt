@@ -1,0 +1,10 @@
+portfolio-websites/
+├── portfolio-website-1/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── portfolio-website-2/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+└── README.md
